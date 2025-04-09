@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ApexCodeReviewUsingAI/static/css/main.a659eaa2.css",
-    "main.js": "/ApexCodeReviewUsingAI/static/js/main.ee9861ee.js",
+    "main.js": "/ApexCodeReviewUsingAI/static/js/main.f1c2241d.js",
     "static/js/453.69727ac6.chunk.js": "/ApexCodeReviewUsingAI/static/js/453.69727ac6.chunk.js",
     "static/media/robot.png": "/ApexCodeReviewUsingAI/static/media/robot.239fe3df33c0197531fb.png",
     "index.html": "/ApexCodeReviewUsingAI/index.html",
     "main.a659eaa2.css.map": "/ApexCodeReviewUsingAI/static/css/main.a659eaa2.css.map",
-    "main.ee9861ee.js.map": "/ApexCodeReviewUsingAI/static/js/main.ee9861ee.js.map",
+    "main.f1c2241d.js.map": "/ApexCodeReviewUsingAI/static/js/main.f1c2241d.js.map",
     "453.69727ac6.chunk.js.map": "/ApexCodeReviewUsingAI/static/js/453.69727ac6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a659eaa2.css",
-    "static/js/main.ee9861ee.js"
+    "static/js/main.f1c2241d.js"
   ]
 }
