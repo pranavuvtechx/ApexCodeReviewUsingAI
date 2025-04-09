@@ -1,0 +1,159 @@
+/* Full-screen container */
+body {
+  background: #0d0d0d;
+  margin: 0;
+  padding: 0;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100vw; 
+  background: #0d0d0d; 
+}
+
+
+/* Login box */
+.login-box {
+  background: #1a1a1a;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  color: white;
+  margin-top: 40px;
+  
+}
+
+/* Logo and heading container */
+.logo-heading-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between logo and text */
+}
+
+/* Logo image */
+.login-logo {
+  width: 50px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* Heading */
+.logo-heading-container h2 {
+  color:#6780FE;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Info text */
+.login-info {
+  font-size: 14px;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+/* Input container */
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Input fields */
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #222;
+  color: white;
+  outline: none;
+}
+
+/* Input focus effect */
+.login-input:focus {
+  border-color: #3a67e0;
+}
+
+/* Login button */
+.login-button {
+  background: #3a67e0;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background: #2f55c6;
+}
+
+/* Forgot password & Sign up links */
+.login-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #3a67e0;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.forgot-password:hover,
+.signup:hover {
+  text-decoration: underline;
+}
+
+/* OR divider */
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  color: #bbb;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Google login button */
+.google-button {
+  background: transparent;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #e7e0e0;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+/* .google-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+} */
+
+/* Footer text */
+.footer-text {
+  font-size: 12px;
+  color: #888;
+  margin-top: 20px;
+}
+
+.footer-text a {
+  color: #3a67e0;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
